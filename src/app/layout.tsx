@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Open_Sans } from 'next/font/google'
-import styles from './layout.module.css'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 const sans = Open_Sans({ subsets: ['latin'] })
 
@@ -17,14 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={sans.className}>
-        <header className={styles.header}>
-          <h1>Clap devlog</h1>
-          <nav className={styles.nav}>
-            <Link href="/posts">Posts</Link>
-            <Link href="/about">About</Link>
-          </nav>
-        </header>
-        {children}
+        <Header />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   )
