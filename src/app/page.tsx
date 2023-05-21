@@ -1,3 +1,10 @@
-export default function Home() {
-  return <h1>Home</h1>
+import Profile from '@/components/Profile'
+import Image from 'next/image'
+
+export default function HomePage() {
+  return (
+    <section>
+      <Profile />
+    </section>
+  )
 }
