@@ -1,0 +1,26 @@
+[
+  {
+    "title": "21년 회고",
+    "description": "21년 회고입니다.",
+    "date": "2022-01-01",
+    "category": "회고",
+    "path": "review-2021",
+    "featured": true
+  },
+  {
+    "title": "JavaScript 클로저",
+    "description": "자바스크립트 클로저에 관한 글입니다.",
+    "date": "2023-02-05",
+    "category": "javascript",
+    "path": "javascript-basic",
+    "featured": true
+  },
+  {
+    "title": "React Props",
+    "description": "리액트 props에 관한 글입니다.",
+    "date": "2023-04-05",
+    "category": "React",
+    "path": "react-basic",
+    "featured": false
+  }
+]
