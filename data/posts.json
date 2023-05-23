@@ -1,10 +1,10 @@
 [
   {
-    "title": "21년 회고",
-    "description": "21년 회고입니다.",
+    "title": "Recursion",
+    "description": "재귀 알고리즘에 대한 글입니다.",
     "date": "2022-01-01",
     "category": "회고",
-    "path": "review-2021",
+    "path": "algorithm",
     "featured": true
   },
   {
@@ -12,15 +12,23 @@
     "description": "자바스크립트 클로저에 관한 글입니다.",
     "date": "2023-02-05",
     "category": "javascript",
-    "path": "javascript-basic",
+    "path": "javascript",
     "featured": true
   },
   {
-    "title": "React Props",
-    "description": "리액트 props에 관한 글입니다.",
+    "title": "NextJs 라우터",
+    "description": "nextjs 라우터에 관한 글입니다.",
     "date": "2023-04-05",
     "category": "React",
-    "path": "react-basic",
-    "featured": false
+    "path": "nextjs",
+    "featured": true
+  },
+  {
+    "title": "HTTP 메서드에 대하여",
+    "description": "HTTP 메서드에 관한 글입니다.",
+    "date": "2023-04-05",
+    "category": "React",
+    "path": "HTTP",
+    "featured": true
   }
 ]

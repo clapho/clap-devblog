@@ -9,12 +9,7 @@ export default function PostCard({
 }: Props) {
   return (
     <Link href={`/posts/${path}`}>
-      <Image
-        src={`/images/posts/${path}.png`}
-        alt={title}
-        width={300}
-        height={200}
-      />
+      <Image src={`/images/${path}.png`} alt={title} width={300} height={200} />
       <div>
         <time>{date.toString()}</time>
         <h3>{title}</h3>
