@@ -1,30 +1,18 @@
 'use client'
 
 import Link from 'next/link'
-import styled from 'styled-components'
+import styles from './Header.module.css'
 
 export default function Header() {
   return (
-    <HeaderLayout>
+    <header className={styles.header}>
       <Link href="/">
-        <h1>Clap devlog</h1>
+        <h1 className={styles.title}>Clap devlog</h1>
       </Link>
-      <Nav>
+      <nav className={styles.nav}>
         <Link href="/about">About</Link>
         <Link href="/posts">Posts</Link>
-      </Nav>
-    </HeaderLayout>
+      </nav>
+    </header>
   )
 }
-
-const HeaderLayout = styled.header`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px;
-`
-const Nav = styled.nav`
-  & a {
-    padding: 0 8px;
-  }
-`

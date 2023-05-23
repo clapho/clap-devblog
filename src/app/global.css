@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

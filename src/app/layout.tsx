@@ -1,7 +1,8 @@
-import Link from 'next/link'
 import { Open_Sans } from 'next/font/google'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import styles from './layout.module.css'
+import './global.css'
 
 const sans = Open_Sans({ subsets: ['latin'] })
 
@@ -16,10 +17,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={sans.className}>
+    <html lang="en" className={sans.className}>
+      <body className={styles.body}>
         <Header />
-        <main>{children}</main>
+        <main className={styles.main}>{children}</main>
         <Footer />
       </body>
     </html>
